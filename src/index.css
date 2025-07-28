@@ -17,26 +17,41 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 262 85% 58%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 275 85% 70%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 240 5% 96%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 315 85% 65%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 262 85% 58%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
+
+    /* App-focused gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(262, 85%, 58%), hsl(315, 85%, 65%));
+    --gradient-hero: linear-gradient(135deg, hsl(262, 85%, 58%) 0%, hsl(275, 85%, 70%) 50%, hsl(315, 85%, 65%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0, 0%, 100%) 0%, hsl(240, 5%, 98%) 100%);
+    
+    /* App shadows */
+    --shadow-app: 0 20px 40px -12px hsl(262, 85%, 58%, 0.25);
+    --shadow-card: 0 4px 20px -4px hsl(262, 85%, 58%, 0.1);
+    --shadow-glow: 0 0 60px hsl(275, 85%, 70%, 0.4);
+
+    /* Smooth transitions */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
 
